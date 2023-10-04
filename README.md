@@ -26,9 +26,9 @@ Abstract: This paper explores the use of 3D Gaussian Splatting for real-time ren
 ## Implementations
 [GSGEN: Text-to-3D using Gaussian Splatting](https://github.com/gsgen3d/gsgen)
 
-(DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation)[https://github.com/dreamgaussian/dreamgaussian]
+[DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation](https://github.com/dreamgaussian/dreamgaussian)
 
-(3D Gaussian Splatting for Real-Time Radiance Field Rendering)[https://github.com/graphdeco-inria/gaussian-splatting]
+[3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://github.com/graphdeco-inria/gaussian-splatting)
 
 ## Community
 - [Reddit GaussianSplatting Subreddit](https://www.reddit.com/r/GaussianSplatting)
