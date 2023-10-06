@@ -13,8 +13,8 @@ A curated list of awesome Gaussian Splatting papers, inspired by awesome-compute
 [3D Gaussian Splattingfor Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
 Authors: Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler3, George Drettakis
 Abstract: The paper introduces a method using 3D Gaussians and a fast rendering algorithm for high-quality, real-time novel-view synthesis of scenes at 1080p resolution.
-[Text-to-3D using Gaussian Splatting](https://arxiv.org/abs/2309.16585)
 
+[Text-to-3D using Gaussian Splatting](https://arxiv.org/abs/2309.16585)
 Authors: Zilong Chen, Feng Wang, Huaping Liu
 Abstract: This paper presents a novel approach for generating high-quality 3D objects using Gaussian Splatting based text-to-3D generation (GSGEN). This approach addresses the shortcomings of previous methods by exploiting the explicit nature of 3D Gaussian Splatting for better geometry and fidelity.
 
