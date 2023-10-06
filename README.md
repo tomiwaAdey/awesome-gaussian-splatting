@@ -6,9 +6,13 @@ A curated list of awesome Gaussian Splatting papers, inspired by awesome-compute
 
 - [Papers](#papers)
 - [Implementations](#implementations)
+- [Tools](#tools)
 - [Community](#community)
 
 ## Papers
+[3D Gaussian Splattingfor Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
+Authors: Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler3, George Drettakis
+Abstract: The paper introduces a method using 3D Gaussians and a fast rendering algorithm for high-quality, real-time novel-view synthesis of scenes at 1080p resolution.
 [Text-to-3D using Gaussian Splatting](https://arxiv.org/abs/2309.16585)
 
 Authors: Zilong Chen, Feng Wang, Huaping Liu
@@ -24,11 +28,27 @@ Authors: Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis
 Abstract: This paper explores the use of 3D Gaussian Splatting for real-time rendering of radiance fields, revolutionizing novel-view synthesis of scenes captured with multiple photos or videos.
 
 ## Implementations
+[3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://github.com/graphdeco-inria/gaussian-splatting)
+
 [GSGEN: Text-to-3D using Gaussian Splatting](https://github.com/gsgen3d/gsgen)
 
 [DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation](https://github.com/dreamgaussian/dreamgaussian)
 
-[3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://github.com/graphdeco-inria/gaussian-splatting)
+[3D Gaussian Splatting, reimagined: Unleashing unmatched speed with C++ and CUDA from the ground up!](https://github.com/MrNeRF/gaussian-splatting-cuda)
+
+
+
+## Tools
+[WebRTC viewer](https://github.com/dylanebert/gaussian-viewer)
+
+[WebGL implementation of a real-time renderer](https://huggingface.co/spaces/cakewalk/splat)
+
+[WebGPU viewer](https://github.com/cvlab-epfl/gaussian-splatting-web)
+
+[AR Gaussian Splatting for iOS & Metal](https://github.com/laanlabs/metal-splats)
+
+[Gaussian Splatting visualization in Unity](https://github.com/aras-p/UnityGaussianSplatting)
+
 
 ## Community
 - [Reddit GaussianSplatting Subreddit](https://www.reddit.com/r/GaussianSplatting)
