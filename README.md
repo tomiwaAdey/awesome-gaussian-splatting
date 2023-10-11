@@ -7,6 +7,7 @@ A curated list of awesome Gaussian Splatting papers, inspired by awesome-compute
 - [Papers](#papers)
 - [Implementations](#implementations)
 - [Tools](#tools)
+- [Explanations](#explanations)
 - [Community](#community)
 
 ## Papers
@@ -39,6 +40,8 @@ Abstract: This paper explores the use of 3D Gaussian Splatting for real-time ren
 
 
 ## Tools
+[Three.js-based implementation of the 3D Gaussian splat viewer](https://github.com/mkkellogg/GaussianSplats3D)
+
 [WebRTC viewer](https://github.com/dylanebert/gaussian-viewer)
 
 [WebGL implementation of a real-time renderer](https://huggingface.co/spaces/cakewalk/splat)
@@ -48,6 +51,11 @@ Abstract: This paper explores the use of 3D Gaussian Splatting for real-time ren
 [AR Gaussian Splatting for iOS & Metal](https://github.com/laanlabs/metal-splats)
 
 [Gaussian Splatting visualization in Unity](https://github.com/aras-p/UnityGaussianSplatting)
+
+## Explanations
+[Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting)
+
+[Gaussian Splatting explorations](https://www.youtube.com/watch?v=jV1g5OY0L5s&ab_channel=DataScienceCastnet)
 
 
 ## Community
