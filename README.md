@@ -7,6 +7,7 @@ A curated list of awesome Gaussian Splatting papers, inspired by awesome-compute
 - [Papers](#papers)
 - [Implementations](#implementations)
 - [Tools](#tools)
+- [Colabs](#colabs)
 - [Explanations](#explanations)
 - [Community](#community)
 
@@ -53,6 +54,11 @@ Abstract: This paper explores the use of 3D Gaussian Splatting for real-time ren
 [Gaussian Splatting visualization in Unity](https://github.com/aras-p/UnityGaussianSplatting)
 
 [CUDA accelerated rasterization of gaussians with python bindings](https://github.com/nerfstudio-project/gsplat)
+
+## Colabs 
+[Clip Guided Gaussian Splatting Colab](https://colab.research.google.com/drive/1YniEH63VfZPuRGTddviUvNH48cDaLqtg)
+
+[Gaussian splitting viewer colab](https://colab.research.google.com/github/camenduru/gaussian-splatting-colab/blob/main/gaussian_splatting_viewer_colab.ipynb)
 
 ## Explanations
 [Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting)
