@@ -52,6 +52,8 @@ Abstract: This paper explores the use of 3D Gaussian Splatting for real-time ren
 
 [Gaussian Splatting visualization in Unity](https://github.com/aras-p/UnityGaussianSplatting)
 
+[CUDA accelerated rasterization of gaussians with python bindings](https://github.com/nerfstudio-project/gsplat)
+
 ## Explanations
 [Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting)
 
