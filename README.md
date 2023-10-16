@@ -1,6 +1,6 @@
 # Awesome Gaussian Splatting 
 
-A curated list of awesome Gaussian Splatting papers, inspired by awesome-computer-vision.
+A curated list of awesome Gaussian Splatting resources, inspired by awesome-computer-vision.
 
 ## Table of Contents
 
