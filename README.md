@@ -7,6 +7,7 @@ A curated list of awesome Gaussian Splatting resources, inspired by awesome-comp
 - [Papers](#papers)
 - [Implementations](#implementations)
 - [Tools](#tools)
+- [Training](#training)
 - [Colabs](#colabs)
 - [Explanations](#explanations)
 - [Community](#community)
@@ -78,30 +79,74 @@ A curated list of awesome Gaussian Splatting resources, inspired by awesome-comp
 
 
 
-## Tools
-[Three.js-based implementation of the 3D Gaussian splat viewer](https://github.com/mkkellogg/GaussianSplats3D)
+## Rendering and Visualization Tools
 
-[WebRTC viewer](https://github.com/dylanebert/gaussian-viewer)
+#### [Three.js-based implementation of the 3D Gaussian splat viewer](https://github.com/mkkellogg/GaussianSplats3D)
+A Three.js implementation that demonstrates 3D Gaussian splatting. This project showcases a viewer for visualizing 3D Gaussian splats in a web-based application.
 
-[WebGL implementation of a real-time renderer](https://huggingface.co/spaces/cakewalk/splat)
+#### [WebRTC viewer](https://github.com/dylanebert/gaussian-viewer)
+This project is a WebRTC implementation for viewing Gaussian splatting in real-time, allowing for interactive viewing experiences over the web.
 
-[WebGPU viewer](https://github.com/cvlab-epfl/gaussian-splatting-web)
+#### [WebGL implementation of a real-time renderer](https://huggingface.co/spaces/cakewalk/splat)
+A real-time renderer implemented in WebGL for viewing Gaussian splatting. This project aims to provide a high-performance rendering experience on the web.
 
-[AR Gaussian Splatting for iOS & Metal](https://github.com/laanlabs/metal-splats)
+#### [WebGPU viewer](https://github.com/cvlab-epfl/gaussian-splatting-web)
+A WebGPU-based viewer for Gaussian splatting, showcasing real-time rendering capabilities and leveraging the power of WebGPU for enhanced performance.
 
-[Gaussian Splatting visualization in Unity](https://github.com/aras-p/UnityGaussianSplatting)
+#### [AR Gaussian Splatting for iOS & Metal](https://github.com/laanlabs/metal-splats)
+A toy project on GitHub showcasing an iOS and Metal AR Gaussian Splat Renderer. This viewer is designed for rendering Gaussian splatting in an AR environment on iOS devices using Metal.
 
-[CUDA accelerated rasterization of gaussians with python bindings](https://github.com/nerfstudio-project/gsplat)
+#### [Gaussian Splatting visualization in Unity](https://github.com/aras-p/UnityGaussianSplatting)
+This project demonstrates Gaussian splatting visualization within the Unity game engine. It provides a Unity-based implementation for rendering and viewing Gaussian splats.
+
+#### [CUDA accelerated rasterization of Gaussians with python bindings](https://github.com/nerfstudio-project/gsplat)
+A project that showcases CUDA accelerated rasterization of Gaussians with Python bindings. This viewer leverages CUDA for high-performance rendering and rasterization of Gaussians.
 
 ## Colabs 
 [Clip Guided Gaussian Splatting Colab](https://colab.research.google.com/drive/1YniEH63VfZPuRGTddviUvNH48cDaLqtg)
 
 [Gaussian splitting viewer colab](https://colab.research.google.com/github/camenduru/gaussian-splatting-colab/blob/main/gaussian_splatting_viewer_colab.ipynb)
 
-## Explanations
-[Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting)
+## Training
+- [fast: C++/CUDA](https://github.com/MrNeRF/gaussian-splatting-cuda)
+- [nerfstudio: python/CUDA](https://github.com/nerfstudio-project/gsplat)
 
-[Gaussian Splatting explorations](https://www.youtube.com/watch?v=jV1g5OY0L5s&ab_channel=DataScienceCastnet)
+  
+## Explanations
+
+### Blog Posts
+
+#### Gaussian Splatting is pretty cool
+**Summary**: This blog post discusses the essence and benefits of Gaussian Splatting in rendering, shedding light on how it's a game changer for real-time, high-quality rendering, and how it could be applied in game development.
+- [Read more](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/)
+
+#### Making Gaussian Splats smaller
+**Summary**:The author explores techniques and shares insights on how to make Gaussian splats smaller to optimize performance without compromising the quality of rendering.
+- [Read more](https://aras-p.info/blog/2023/09/13/Making-Gaussian-Splats-smaller/)
+
+#### Making Gaussian Splats more smaller
+**Summary**: A continuation of exploring ways to optimize the size of Gaussian Splats for better performance in rendering tasks.
+- [Read more](https://aras-p.info/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/)
+
+#### Introduction to 3D Gaussian Splatting
+**Summary**: The post breaks down the rasterization technique of 3D Gaussian Splatting, elaborating on how it enables real-time rendering of photorealistic scenes from small image samples, its process, and its potential impact on the future of graphics.
+- [Read more](https://huggingface.co/blog/gaussian-splatting)
+  
+
+### Tutorial Videos
+
+#### Getting Started with 3DGS
+**Summary**: A tutorial video guiding viewers on how to get started with 3D Gaussian Splatting, covering the basics and essential steps to utilize this rendering technique.
+  [Watch here](https://youtu.be/UXtuigy_wYc?si=j1vfORNspcocSH-b)
+
+#### How to view 3DGS Scenes in Unity
+**Summary**: This tutorial demonstrates how to view 3D Gaussian Splatting scenes in Unity, providing a practical guide for developers interested in integrating this technique in their projects.
+  [Watch here](https://youtu.be/5_GaPYBHqOo?si=6u9j1HqXwF_5WSUL)
+  
+#### Gaussian Splatting explorations
+ **Summary**:Dive into Gaussian Splatting: what is it, how are scenes represented, and what fun things can we do with it?
+  [Watch here](https://www.youtube.com/watch?v=jV1g5OY0L5s)
+
 
 
 ## Community
