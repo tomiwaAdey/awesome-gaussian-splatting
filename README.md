@@ -51,6 +51,15 @@ Gaussian Splatting is a revolutionary technique that combines the advantages of 
 - [🌐 Project Page](https://dynamic3dgaussians.github.io/) 
 - [💻 Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) 
 - [🎥 Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)
+  
+
+### 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering:
+#### [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](https://arxiv.org/pdf/2310.08528.pdf)
+**Authors**: Guanjun Wu, Taoran Yi, Jiemin Fang, Lingxi Xie, Xiaopeng Zhang, Wei Wei, Wenyu Liu, Qi Tian, Xinggang Wang  
+**About**: The paper introduces 4D Gaussian Splatting (4D-GS) for real-time dynamic scene rendering. It efficiently models both Gaussian motions and shape deformations using a deformation field. The method achieves real-time rendering at high resolutions (70 FPS at 800*800 resolution on an RTX 3090 GPU) while maintaining high quality.
+- [📄 Paper](https://arxiv.org/pdf/2310.08528.pdf) 
+- [🌐 Project Page](https://guanjunwu.github.io/4dgs/) 
+- [💻 Code](https://github.com/hustvl/4DGaussians) 
 
 #### [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](https://arxiv.org/pdf/2309.13101.pdf)
 **Authors**: Ziyi Yang, Xinyu Gao, Wen Zhou, Shaohui Jiao, Yuqing Zhang, Xiaogang Jin  
@@ -174,7 +183,8 @@ A project that showcases CUDA accelerated rasterization of Gaussians with Python
 
 ## Updates
 
-- **30 October 2023**: Add a FAQ section.
+- **30 October 2023**: Added a FAQ section.
+- **31 October 2023**: Added the paper: 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
 
 ## FAQs
 
