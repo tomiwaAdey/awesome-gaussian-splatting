@@ -4,13 +4,31 @@ A curated list of awesome Gaussian Splatting resources, inspired by awesome-comp
 
 ## Table of Contents
 
+- [Introduction](#introduction)
+- [Quick Links](#quick-links)
 - [Papers](#papers)
 - [Implementations](#implementations)
-- [Tools](#tools)
+- [Tools](#rendering-and-visualisation-tools)
 - [Training](#training)
 - [Colabs](#colabs)
 - [Explanations](#explanations)
+  - [Blog Posts](#blog-posts)
+  - [Tutorial Videos](#tutorial-videos)
 - [Community](#community)
+- [Updates](#updates)
+- [FAQs](#faqs)
+- [License](#license)
+
+
+## Introduction
+
+Gaussian Splatting is a revolutionary technique that combines the advantages of both explicit 3D scene representations like meshes and points, and continuous representations like Neural Radiance Fields (NeRF). It introduces 3D Gaussians as a flexible and expressive scene representation that allows for high-quality, real-time rendering at 1080p resolution. The technique is also optimized for fast training times, making it a highly efficient solution for real-time rendering of complex scenes captured from multiple photos.
+
+## Quick Links
+
+- **Must-Read Paper**: [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
+- **Must-See Video**: [Short Presentation on 3D Gaussian Splatting](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT)
+- **Implementation**: [3D Gaussian Splatting, reimagined: Unleashing unmatched speed with C++ and CUDA from the ground up!](https://github.com/MrNeRF/gaussian-splatting-cuda)
 
 
 ## Papers
@@ -79,7 +97,7 @@ A curated list of awesome Gaussian Splatting resources, inspired by awesome-comp
 
 
 
-## Rendering and Visualization Tools
+## Rendering and Visualisation Tools
 
 #### [Three.js-based implementation of the 3D Gaussian splat viewer](https://github.com/mkkellogg/GaussianSplats3D)
 A Three.js implementation that demonstrates 3D Gaussian splatting. This project showcases a viewer for visualizing 3D Gaussian splats in a web-based application.
@@ -102,14 +120,16 @@ This project demonstrates Gaussian splatting visualization within the Unity game
 #### [CUDA accelerated rasterization of Gaussians with python bindings](https://github.com/nerfstudio-project/gsplat)
 A project that showcases CUDA accelerated rasterization of Gaussians with Python bindings. This viewer leverages CUDA for high-performance rendering and rasterization of Gaussians.
 
-## Colabs 
-[Clip Guided Gaussian Splatting Colab](https://colab.research.google.com/drive/1YniEH63VfZPuRGTddviUvNH48cDaLqtg)
-
-[Gaussian splitting viewer colab](https://colab.research.google.com/github/camenduru/gaussian-splatting-colab/blob/main/gaussian_splatting_viewer_colab.ipynb)
-
 ## Training
 - [fast: C++/CUDA](https://github.com/MrNeRF/gaussian-splatting-cuda)
 - [nerfstudio: python/CUDA](https://github.com/nerfstudio-project/gsplat)
+
+## Colabs 
+- [Clip Guided Gaussian Splatting Colab](https://colab.research.google.com/drive/1YniEH63VfZPuRGTddviUvNH48cDaLqtg)
+- [Gaussian splitting viewer colab](https://colab.research.google.com/github/camenduru/gaussian-splatting-colab/blob/main/gaussian_splatting_viewer_colab.ipynb)
+
+
+
 
   
 ## Explanations
@@ -152,5 +172,43 @@ A project that showcases CUDA accelerated rasterization of Gaussians with Python
 ## Community
 - [Reddit GaussianSplatting Subreddit](https://www.reddit.com/r/GaussianSplatting)
 
+## Updates
+
+- **30 October 2023**: Add a FAQ section.
+
+## FAQs
+
+### What is 3D Gaussian Splatting?
+
+- **A**: 3D Gaussian Splatting is a novel technique introduced for real-time, high-quality rendering of 3D scenes. It uses 3D Gaussians as a flexible and expressive scene representation, optimized for both visual quality and computational efficiency.
+
+### How does 3D Gaussian Splatting differ from traditional 3D scene representations like meshes and points?
+
+- **A**: Traditional 3D scene representations like meshes and points are explicit and well-suited for fast GPU/CUDA-based rasterization. However, they lack the continuous nature that some other methods like Neural Radiance Fields (NeRF) offer. 3D Gaussian Splatting combines the best of both worlds, offering a continuous yet efficient representation.
+
+### What are the advantages of using 3D Gaussian Splatting over Neural Radiance Fields (NeRF)?
+
+- **A**: While NeRF methods offer high visual quality, they require costly stochastic sampling for rendering, which can result in noise. 3D Gaussian Splatting allows for state-of-the-art visual quality and competitive training times, without the need for costly sampling. It also ensures real-time rendering at high resolutions like 1080p.
+
+### What are the core components of the 3D Gaussian Splatting method?
+
+- **A**: The method has three main components:
+  1. 3D Gaussians as a flexible and expressive scene representation.
+  2. Optimization of the properties of these 3D Gaussians, including their 3D position, opacity, anisotropic covariance, and spherical harmonic coefficients.
+  3. A real-time rendering solution that uses fast GPU sorting algorithms and is inspired by tile-based rasterization.
+
+### How does 3D Gaussian Splatting achieve real-time rendering?
+
+- **A**: The method employs a tile-based splatting solution for real-time rendering. It uses fast GPU sorting algorithms and is inspired by tile-based rasterization techniques. This allows for anisotropic splatting that respects visibility ordering and enables a fast and accurate backward pass.
+
+### What kind of optimization times can one expect with 3D Gaussian Splatting?
+
+- **A**: The method is optimized for fast training times, making it a highly efficient solution for real-time rendering of complex scenes. For example, it can achieve training speeds and quality similar to the fastest existing methods, and it provides the first real-time rendering solution with high quality for novel-view synthesis.
+
+### Is 3D Gaussian Splatting suitable for dynamic scenes?
+
+- **A**: The paper primarily focuses on real-time rendering for scenes captured with multiple photos. However, its flexible and expressive representation makes it a promising candidate for dynamic scenes as well.
+
+  
 ## License 
 MIT
