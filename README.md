@@ -6,6 +6,7 @@ A curated list of awesome Gaussian Splatting resources, inspired by awesome-comp
 
 - [Introduction](#introduction)
 - [Quick Links](#quick-links)
+- [Updates](#updates)
 - [Papers](#papers)
 - [Implementations](#implementations)
 - [Tools](#rendering-and-visualisation-tools)
@@ -15,7 +16,7 @@ A curated list of awesome Gaussian Splatting resources, inspired by awesome-comp
   - [Blog Posts](#blog-posts)
   - [Tutorial Videos](#tutorial-videos)
 - [Community](#community)
-- [Updates](#updates)
+
 - [FAQs](#faqs)
 - [License](#license)
 
@@ -29,6 +30,14 @@ Gaussian Splatting is a revolutionary technique that combines the advantages of 
 - **Must-Read Paper**: [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
 - **Must-See Video**: [Short Presentation on 3D Gaussian Splatting](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT)
 - **Implementation**: [3D Gaussian Splatting, reimagined: Unleashing unmatched speed with C++ and CUDA from the ground up!](https://github.com/MrNeRF/gaussian-splatting-cuda)
+- **Beginner friendly Introduction**: [Blog: Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting)
+- **Beginner friendly 2 minute Video**: [3D Gaussian Splatting - Why Graphics Will Never Be The Same](https://www.youtube.com/watch?v=HVv_IQKlafQ)
+
+## Updates
+
+- **1 November 2023**: Added beginner friendly content introducing GS
+- **31 October 2023**: Added the paper: 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
+- **30 October 2023**: Added a FAQ section.
 
 
 ## Papers
@@ -181,10 +190,6 @@ A project that showcases CUDA accelerated rasterization of Gaussians with Python
 ## Community
 - [Reddit GaussianSplatting Subreddit](https://www.reddit.com/r/GaussianSplatting)
 
-## Updates
-
-- **30 October 2023**: Added a FAQ section.
-- **31 October 2023**: Added the paper: 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
 
 ## FAQs
 
